@@ -32,8 +32,6 @@ public class JwtTokenGenerator {
     }
 
     /**
-     *
-     *
      * @param args
      */
     public static void main(String[] args) {
@@ -43,10 +41,6 @@ public class JwtTokenGenerator {
         user.setUsername("Pascal");
         user.setRole("admin");
 
-        System.out.println("**************************************\n\n" + generateToken(user, "my-very-secret-key") + "\n\n");
-
-
+        System.out.println("**************************************\n\n" + generateToken(user, "my-very-secret-key") + "\n\n**************************************");
     }
-
-
 }
