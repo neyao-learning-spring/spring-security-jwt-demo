@@ -13,4 +13,4 @@ spring:
       enabled: true
 management:
   security:
-    enabled: false
+    enabled: true # set to false to disable 'default' Spring Boot security

@@ -26,9 +26,7 @@ import java.util.Arrays;
  */
 @Configuration
 @EnableWebSecurity
-@EnableAutoConfiguration(exclude = {
-        org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration.class,
-        org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration.class})
+@EnableAutoConfiguration
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
